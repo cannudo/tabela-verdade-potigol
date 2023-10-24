@@ -1,0 +1,1 @@
+# tabela-verdade-potigol
