@@ -1,0 +1,14 @@
+OU(A, B: Lógico): Lógico
+    var retorno := falso
+    se A == verdadeiro então
+        retorno := verdadeiro
+    fim
+    se B == verdadeiro então
+        retorno := verdadeiro
+    fim
+
+    retorne retorno
+
+fim
+
+escreva "{OU(verdadeiro, verdadeiro)}"
