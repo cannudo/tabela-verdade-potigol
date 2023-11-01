@@ -1,0 +1,12 @@
+E(A, B: Lógico): Lógico
+    var retorno := falso
+    se A então
+        retorno := B
+    fim
+    retorne retorno
+fim
+
+escreva "E(verdadeiro, verdadeiro) = {E(verdadeiro, verdadeiro)}"
+escreva "E(verdadeiro, falso) = {E(verdadeiro, falso)}"
+escreva "E(falso, verdadeiro) = {E(falso, verdadeiro)}"
+escreva "E(falso, falso) = {E(falso, falso)}"

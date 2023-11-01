@@ -1,0 +1,15 @@
+IMPLICA(A, B: Lógico): Lógico
+    var retorno := falso
+    se A == falso então
+        retorno := verdadeiro
+    fim
+    se B == verdadeiro então
+        retorno := verdadeiro
+    fim
+    retorne retorno
+fim
+
+escreva "IMPLICA(verdadeiro, verdadeiro) = {IMPLICA(verdadeiro, verdadeiro)}"
+escreva "IMPLICA(verdadeiro, falso) = {IMPLICA(verdadeiro, falso)}"
+escreva "IMPLICA(falso, verdadeiro) = {IMPLICA(falso, verdadeiro)}"
+escreva "IMPLICA(falso, falso) = {IMPLICA(falso, falso)}"
