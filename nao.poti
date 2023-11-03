@@ -1,8 +1,9 @@
 NAO(A: Lógico): Lógico
+    saida := verdadeiro
     se A == verdadeiro então
-        retorne falso
+        saida := falso
     fim
-    retorne verdadeiro
+    retorne saida
 
 escreva "NAO(verdadeiro)"
 
