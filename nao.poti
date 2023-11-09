@@ -1,0 +1,10 @@
+NAO(A: Lógico): Lógico
+    var saida := verdadeiro
+    se A == verdadeiro então
+        saida := falso
+    fim
+    retorne saida
+fim
+
+escreva "{NAO(falso)}"
+
